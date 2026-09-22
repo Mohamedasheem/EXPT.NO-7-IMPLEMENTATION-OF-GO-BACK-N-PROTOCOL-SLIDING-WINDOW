@@ -1,4 +1,4 @@
-# EXPT.NO-8-IMPLEMENTATION-OF-GO-BACK-N-PROTOCOL-SLIDING-WINDOW
+# EXPT.NO-7-IMPLEMENTATION-OF-GO-BACK-N-PROTOCOL-SLIDING-WINDOW
 # AIM
 To write and execute a program for Go-Back-N protocol.
 # EQUIPMENTS REQUIRED
@@ -13,8 +13,7 @@ Personal Computer Turbo C Compiler
 7.	Choose the file and verify the go back protocol operation.
 
 # PROGRAM
-~~~
-
+```
 #include <stdio.h>
 /* Assume 7 frames of data are to sent using GO BACK N ARQW*/ #define window_size 4
 void main()
@@ -41,16 +40,15 @@ printf("No Acknowlegement for frame %d... \n",ack); printf("Resending frames sta
 }
 printf("\n All frames sent successfully.\n");
 }
-~~~
+```
 
 # OUTPUT
 
+<img width="1599" height="953" alt="image" src="https://github.com/user-attachments/assets/16c351c1-394c-407c-817b-619d250d31ed" />
  
- <img width="1169" height="720" alt="image" src="https://github.com/user-attachments/assets/7a85a4a7-4ca4-4254-9294-238de117e6bb" />
-
 
 
 
 
 # RESULT: Thus the Go-Back-N protocol-Sliding Window was implemented and the output is verified successfully.
-<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/6195b080-4923-4e59-9204-a3bd0274890d" />
+<img width="1600" height="903" alt="image" src="https://github.com/user-attachments/assets/ca440db7-1d29-4416-9a87-386926531aa8" />
